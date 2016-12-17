@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-collapse: collapse;
+    outline: 0;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#scr_sim, #scr_body {
+    width: 100%;
+}
+
+#scr_sim {
+    height: 100%;
+    background-color: white;
+}
+
+#scr_body {
+    position: relative;
+    left: 0;
+    height: 100%;
+    background-color: rgba(1, 1, 1, 0.75);
+}
+
+#win_sim {
+    background-color: white;
+    height: 100px;
+    min-height: 100px;
+    width: 150px;
+    min-width: 150px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+#cons {
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+#win_head {
+    height: 30px;
+    background-color: rgba(1, 1, 1, 0.70);
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+}
+
+#win_body {
+    position: relative;
+    background-color: rgba(1, 1, 1, 0.65);
+    overflow: visible;
+}
+
+#content_text {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    background: rgba(1, 1, 1, 0.05);
+    color: white;
+    overflow-x: none;
+    overflow-y: auto;
+    resize: none;
+    margin-bottom: -4px;
+    padding-left: 4px;
+}
+
+#content_text:focus {
+    outline: none;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+}
+
+.conp {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+#icons1 {
+    display: inline;
+    height: 1%;
+    /* special for IE*/
+    position: relative;
+    padding-top: 1px;
+    float: right;
+    padding-right: 2px;
+}
+
+#col_change {
+    height: 25px;
+    margin-top: 2px;
+    float: left;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+#win_resize {
+    width: 17px;
+    background-color: rgba(1, 1, 1, 0.5);
+    cursor: se-resize;
+}
+
+#inpLine, #win_resize, #enterBtn {
+    height: 17px;
+    display: block;
+}
+
+#enterBtn {
+    position: relative;
+    width: 17px;
+    background-color: rgba(1, 1, 1, 0.3);
+}
+
+#inpLine {
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 0;
+}

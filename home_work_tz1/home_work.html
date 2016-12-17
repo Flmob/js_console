@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Screen simulator</title>
+    <link rel="stylesheet" href="hw_style.css" media="screen" title="no title">
+    <script type="text/javascript" src='hw_script.js' defer></script>
+    <script type="text/javascript" src='cons_script.js' defer></script>
+</head>
+
+<body>
+    <div id="scr_body">
+        <div id="win_sim">
+            <div id="win_head">
+                <div id="icons1">
+                    <img src="icons/conp1.png" alt="conp1" class="conp" id='norm1' />
+                    <img src="icons/conp6.png" alt="conp6" class="conp" id='down1' />
+                    <img src="icons/conp4.png" alt="conp4" class="conp" id='right1' />
+                </div>
+            </div>
+            <div id="win_body">
+                <textarea id='content_text' readonly="readonly"></textarea>
+                <table id='myTable'>
+                    <tr>
+                        <td><input type="text" id="inpLine" value=">"></td>
+                        <td><div id="enterBtn"></div></td>
+                        <td><div id="win_resize"></div></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
